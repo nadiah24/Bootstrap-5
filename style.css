@@ -133,6 +133,11 @@
       max-width: 100%;
     }
 
+    .review-section .row {
+      display: flex;
+      flex-direction: column;
+    }
+
   #About p {
     font-size: 14px; 
     max-width: 100%; 
