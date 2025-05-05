@@ -134,26 +134,49 @@
     }
 
     
-.review-section .row {
-  display: flex;
-  flex-wrap: wrap; 
-  justify-content: center;
-}
+    .review-section .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center; 
+      text-align: center;
+    }
+    
 
 
-.review-section .col {
-  flex: 1 1 100%; 
-  margin-bottom: 20px; 
-  text-align: center; 
-}
+    .review-section .col {
+      flex: 1 1 100%;
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+      text-align: center;
+    }
+    
 
 
-@media (min-width: 768px) {
-  .review-section .col {
-      flex: 1 1 23%; 
-      margin-right: 20px;
-  }
-}
+    @media (min-width: 768px) {
+      .review-section .col {
+        flex: 1 1 23%;
+        margin: 10px;
+      }
+    }
+
+    .review-section .col img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+    .rating .star {
+      font-size: 20px;
+      color: gold;
+    }
+    
+    
+    
 
 @media (max-width: 768px) {
   .review-section .row {
@@ -174,3 +197,81 @@
     padding: 15px;
   }
 }
+
+
+#About {
+  scroll-margin-top: 200px; /* sesuaikan dengan tinggi navbar */
+}
+
+#carouselExampleIndicators {
+  scroll-margin-top: 100px;
+}
+
+#Product {
+  scroll-margin-top: 90px;
+}
+
+#Team {
+  scroll-margin-top: 100px;
+}
+
+#Review {
+  scroll-margin-top: 100px;
+}
+
+#Contact {
+  scroll-margin-top: 100px;
+}
+
+#Company {
+  scroll-margin-top: 100px;
+}
+
+/* Konten Card */
+.bg-white {
+  background-color: #ffffff;
+  border-radius: 1.5rem; /* Rounded corners */
+}
+
+.text-judul {
+  color: #3972af;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+.shadow-lg {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.p-4 {
+  padding: 1.5rem; /* Perbesar padding untuk spasi */
+}
+
+h5 {
+  font-size: 1.2rem; /* Ukuran huruf heading */
+  color: #3972af; /* Warna judul */
+  font-weight: bold;
+}
+
+ul.list-unstyled {
+  line-height: 1.8;
+}
+
+/* Efek Hover pada card */
+.bg-white:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+  transition: 0.3s ease-in-out;
+}
+
+iframe {
+  border-radius: 0.5rem; /* Rounded corners pada peta */
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
