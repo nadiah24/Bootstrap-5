@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Pastel Puff - Macaroon</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap & Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #d8ebff;
+      color: #333;
+    }
+
+    .product-container {
+      /* gradient vertical dari biru pastel ke putih */
+      background: linear-gradient(to bottom, #d8ebff, #ffffff);
+      border-radius: 20px;
+      padding: 60px 20px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+
+    .product-image {
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .product-info h4 {
+      color: #3972af;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    .product-info h1 {
+      color: #3972af;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    .product-info p {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    .list-unstyled li {
+      font-size: 14px;
+      color: #3972af;
+      margin-bottom: 8px;
+    }
+
+    .list-unstyled i {
+      color: #3972af;
+    }
+
+    .btn-order {
+      /* gradient horizontal untuk tombol */
+      background: linear-gradient(to right, #3972af, #acd4ff);
+      color: white;
+      border-radius: 8px;
+      padding: 10px 25px;
+      font-weight: 500;
+      transition: transform 0.2s ease;
+    }
+
+    .btn-order:hover {
+      transform: scale(1.05);
+      /* sedikit gelapkan di hover */
+      background: linear-gradient(to right, #285e8e, #8abfff);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="product-container row align-items-center">
+      <div class="col-md-6 text-center mb-4 mb-md-0">
+        <img src="Img/dessert3.jpg" alt="Macaroon" class="product-image">
+      </div>
+      <div class="col-md-6 product-info">
+        <h4 class="text-uppercase">Dessert Favorit</h4>
+        <h1>Icy Strawberyy</h1>
+        <p>Icy Strawberry menyajikan stroberi beku manis yang dilapisi cokelat putih warna pastel, menghadirkan sensasi dingin dan lembut dalam setiap gigitan. Kombinasi unik ini memadukan kesegaran buah stroberi dengan kelembutan cokelat yang manis, menciptakan camilan yang istimewa dan memikat selera.</p>
+  <ul class="list-unstyled mb-4">
+  <li><i class="bi bi-check-circle-fill me-2"></i>Stroberi beku pilihan berkualitas tinggi</li>
+  <li><i class="bi bi-check-circle-fill me-2"></i>Lapis cokelat putih pastel yang lembut</li>
+  <li><i class="bi bi-check-circle-fill me-2"></i>Cocok sebagai camilan menyegarkan atau hadiah elegan</li>
+</ul>
+
+        </ul>
+        <a href="#" class="btn btn-order">Order Sekarang</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
